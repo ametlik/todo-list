@@ -15,6 +15,12 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+Deploy Nuxt with Surge
+npm install -g surge
+npm run generate
+surge dist/
+https://fr.nuxtjs.org/docs/2.x/deployment/surge-deployment
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
